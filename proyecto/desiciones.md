@@ -47,7 +47,6 @@ Al menos **5 plugins**, cada uno vale 2 pts. **SEO** y **contacto** son obligato
 
 Ejemplo con Mermaid (GitHub lo muestra como gráfico):
 
-````
 ```mermaid
 gantt
     dateFormat YYYY-MM-DD
@@ -62,7 +61,8 @@ gantt
     Ajustes          :2026-11-19, 6d
     Entrega final    :milestone, 2026-11-25, 0d
 ```
-````
+
+
 
 ## 4. Plan B (5 pts)
 
