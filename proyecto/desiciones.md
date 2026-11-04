@@ -58,7 +58,7 @@ gantt
     section Contenido
     Páginas          :2026-11-12, 5d
     Plugins          :2026-11-14, 4d
-    Checkpoint           :milestone, 2026-11-18, 0d
+    Checkpoint       :milestone, 2026-11-18, 0d
     Ajustes          :2026-11-19, 6d
     Entrega final    :milestone, 2026-11-25, 0d
 ```
