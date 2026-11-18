@@ -79,6 +79,6 @@ Qué hago si algo no funciona. **Al menos 3 riesgos**, cada uno con su mitigaci�
 | Qué cambié | Qué había antes | Por qué | Evidencia (captura o commit) |
 |---|---|---|---|
 | Actualización de la versión de WordPress | Versión anterior de WP | Para lograr compatibilidad y permitir el funcionamiento correcto del plugin de contacto en el sitio | <img width="452" height="425" alt="Captura de pantalla 2026-11-18 203109" src="https://github.com/user-attachments/assets/e5f230e8-1a6c-4b89-9bb9-bdf870fcf3c6" /> |
-| Integración de página de Contacto con formulario | Estructura básica de contacto | Para cumplir con los requisitos de interacción y habilitar el canal directo con clientes | Captura de página operativa en InfinityFree |
+| Integración de página de Contacto con formulario | Estructura básica de contacto | Para cumplir con los requisitos de interacción y habilitar el canal directo con clientes | <img width="722" height="376" alt="Captura de pantalla 2026-11-18 204019" src="https://github.com/user-attachments/assets/050aff46-7c46-4dbe-8143-062ee712a568" /> |
 
 **Decisión:** Continúo con mi propuesta para **Nabi Skin**, validando que la solución técnica del formulario de contacto quedó operativa tras resolver la actualización del sistema.
