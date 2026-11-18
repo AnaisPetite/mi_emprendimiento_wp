@@ -7,13 +7,13 @@
 
 Al menos **5 plugins**, cada uno vale 2 pts. **SEO** y **contacto** son obligatorios; los otros 3 los eliges según lo que necesita tu sitio (parte de `docs/03-funcionalidades.md`). Guía: `guia-investigar-plugins.md`.
 
-| # | Funcionalidad | Plugin | Gratis o de pago | Qué incluye la versión gratis | Probado hasta (WP) | Requiere PHP | ¿Funciona con tema propio? | Enlace a la ficha |
-|---|---|---|---|---|---|---|---|---|
-| 1 | SEO (obligatorio) | Yoast SEO | Gratis (con versión Pro opcional) |Análisis de legibilidad, título SEO y meta descripciones.  | Probado hasta la versión actual | Sí | Sí | Yoast SEO Plugin |
-| 2 | Contacto (obligatorio) | Contact form 7 | Gratis | Creación de formularios personalizados y gestión de envíos.  | Probado hasta la versión actual | Sí | Sí | Contact Form 7 |
-| 3 | Copia de seguridad | BackWPup | Gratis (versión Pro disponible) | Respaldos completos de base de datos y archivos del sitio. | Probado hasta la versión actual | Sí | Sí | BackWPup |
-| 4 | Filtro de Spam | Akismet Anti-spam | Gratis (planes comerciales opcionales) | Filtrado automático de comentarios de spam. | Probado hasta la versión actual | Sí | Sí | Akismet Anti-spam |
-| 5 | Newsletter / Suscripción | Mailchimp for WordPress | Gratis (versión Pro disponoble) | Formularios de suscripción enlazados a listas de correo. | Probado hasta la versión actual | Sí | Sí | Mailchimp for WordPress |
+| *#* | *Funcionalidad* | *Plugin* | *Gratis o de pago* | *Qué incluye la versión gratis* | *Probado hasta (WP)* | *Requiere PHP* | *¿Funciona con tema propio?* | *Enlace a la ficha* |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 1 | SEO (obligatorio) | Yoast SEO | Gratis (con versión Pro opcional) | Análisis de legibilidad, título SEO y meta descripciones. | 6.4 | 7.2 | Sí | [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) |
+| 2 | Contacto (obligatorio) | Contact form 7 | Gratis | Creación de formularios personalizados y gestión de envíos. | 6.4 | 7.4 | Sí | [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) |
+| 3 | Copia de seguridad | BackWPup | Gratis (versión Pro disponible) | Respaldos completos de base de datos y archivos del sitio. | 6.3 | 7.0 | Sí | [BackWPup](https://wordpress.org/plugins/backwpup/) |
+| 4 | Filtro de Spam | Akismet Anti-spam | Gratis (planes comerciales opcionales) | Filtrado automático de comentarios de spam. | 6.4 | 7.0 | Sí | [Akismet Anti-Spam](https://wordpress.org/plugins/akismet/) |
+| 5 | Newsletter / Suscripción | Mailchimp for WordPress | Gratis (versión Pro disponible) | Formularios de suscripción enlazados a listas de correo. | 6.4 | 5.6 | Sí | [Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/) |
 
 ## 2. Páginas de la fase 1 (5 pts)
 
