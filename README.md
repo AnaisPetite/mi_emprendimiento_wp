@@ -14,7 +14,7 @@ Nabi Skin es un e-commerce y marca de cosmética coreana (K-Beauty) enfocado en 
 ## Mi tema
 
 - [ ] **Tema propio:** `(nombre del tema)`
-- [x] **Tema descargado:** `Twenty Twenty-Five` · (https://wordpress.org/themes/twentytwenty-five/)
+- [x] **Tema descargado:** `Twenty Twenty-Five` · (https://wordpress.org/themes/twentytwentyfive/)
 ---
 
 ## Instrucciones si uso un tema descargado
@@ -23,7 +23,7 @@ Nabi Skin es un e-commerce y marca de cosmética coreana (K-Beauty) enfocado en 
 
 | Dato | Mi tema |
 |---|---|
-| Nombre y enlace a la ficha | [Twenty Twenty-Five](https://wordpress.org/themes/twenty-twenty-five/) |
+| Nombre y enlace a la ficha | [Twenty Twenty-Five](https://wordpress.org/themes/twentytwentyfive/) |
 | Gratis o de pago | Gratis |
 | Tipo (clásico o de bloques) | Tema de bloques (Block Theme) |
 | Versión de WordPress que requiere | 6.7 o superior |
