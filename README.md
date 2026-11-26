@@ -3,7 +3,7 @@
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
 - **Sitio en producción:** https://nabi-skin.infinityfree.me/
-- **Prototipo en Stitch:** (enlace)
+- **Prototipo en Stitch:** https://stitch.google.com/projects/15130692259384807424
 - **Repo del Parcial 02:** https://github.com/AnaisPetite/nabi-skin
 - **Autor/a:** Anaís Cruz / Sección: 001D
 
