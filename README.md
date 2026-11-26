@@ -102,7 +102,7 @@ Revisa el menú de navegación principal, que la página de inicio (Home) cargue
 
 ## Cómo me organicé
 
-Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) 
+Mi plan y mi plan B están en [`decisiones.md`](https://github.com/AnaisPetite/mi_emprendimiento_wp/blob/main/proyecto/desiciones.md) 
 
 ## Plan de continuidad y rendimiento
 
