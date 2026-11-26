@@ -86,7 +86,7 @@ Revisa el menú de navegación principal, que la página de inicio (Home) cargue
 ## Páginas y entradas
 
 - **Páginas:** 
-  1. **Inicio (Home):** Presentación de la marca, banner principal de la colección y llamada a la acción.
+  1. **Inicio:** Presentación de la marca, banner principal de la colección y llamada a la acción.
   2. **Sobre nosotros:** Historia de Nabi Skin, la filosofía K-Beauty y la proto-persona Sofía.
   3. **Blog:** Artículos educativos sobre rutinas de cuidado facial y consejos de belleza.
   4. **Contacto:** Formulario interactivo con almacenamiento local y datos de atención.
@@ -98,11 +98,11 @@ Revisa el menú de navegación principal, que la página de inicio (Home) cargue
 
 ## Uso de IA
 
-- **Google Gemini:** Utilizado como apoyo académico y de diseño para estructurar los textos comerciales, redactar copy persuasivo para las publicaciones del blog y resolver dudas técnicas de desarrollo con WordPress y CSS. Todo el contenido generado fue revisado y adaptado personalmente.
+- **Google Gemini:** Utilizado como apoyo académico y de diseño para estructurar los textos comerciales, redactar copy persuasivo para las publicaciones del blog y resolver dudas técnicas de desarrollo con WordPress. Todo el contenido generado fue revisado y adaptado personalmente.
 
 ## Cómo me organicé
 
-Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) (si haces tema propio, está en `proyecto/documentacion/`). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
+Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) 
 
 ## Plan de continuidad y rendimiento
 
