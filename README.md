@@ -4,8 +4,8 @@
 
 - **Sitio en producción:** https://nabi-skin.infinityfree.me/
 - **Prototipo en Stitch:** (enlace)
-- **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
-- **Autor/a:** (nombre y sección)
+- **Repo del Parcial 02:** https://github.com/AnaisPetite/nabi-skin
+- **Autor/a:** Anaís Cruz / Sección: 001D
 
 ## Contexto de la web
 
