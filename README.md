@@ -107,4 +107,4 @@ Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md)
 ## Plan de continuidad y rendimiento
 
 - **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
-- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
+- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](https://github.com/AnaisPetite/mi_emprendimiento_wp/blob/main/proyecto/ligthouse.md)
