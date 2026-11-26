@@ -1,73 +1,50 @@
-# [Nombre de tu emprendimiento] · Sitio WordPress
+# Nabi Skin · Sitio WordPress
 
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
-- **Sitio en producción:** (URL de InfinityFree)
+- **Sitio en producción:** https://nabi-skin.infinityfree.me/
 - **Prototipo en Stitch:** (enlace)
 - **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
 - **Autor/a:** (nombre y sección)
 
 ## Contexto de la web
 
-(3 a 5 líneas: qué es tu emprendimiento, a quién le vende, qué problema resuelve el sitio y qué quieres que haga la persona cuando llega. Apóyate en tu proto-persona y tu brief del Parcial 02.)
+Nabi Skin es un e-commerce y marca de cosmética coreana (K-Beauty) enfocado en clientas jóvenes que buscan una rutina de cuidado facial efectiva y de origen natural. El sitio resuelve la necesidad de encontrar productos especializados en un solo lugar y guía a la usuaria mediante la proto-persona Sofía hacia una experiencia de compra intuitiva, educativa y visualmente limpia. Su propósito principal es captar el interés de la visitante y facilitar la exploración de su catálogo y métodos de pago.
 
 ## Mi tema
 
-Marca una opción y borra la otra sección de instrucciones.
-
 - [ ] **Tema propio:** `(nombre del tema)`
-- [ ] **Tema descargado:** `(nombre del tema)` · (enlace a su ficha)
-
----
-
-## Instrucciones si uso un tema propio
-
-*(Borra esta sección si usas un tema descargado.)*
-
-Cómo instalar mi tema en un WordPress limpio:
-
-1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `proyecto/mi-tema/` comprimida o un *Release* de este repo).
-2. **Instálalo:** en WordPress, **Apariencia > Temas > Añadir nuevo > Subir tema**, elige el `.zip` y pulsa **Instalar ahora**.
-3. **Actívalo:** pulsa **Activar**.
-4. **Configura la portada:** **Ajustes > Lectura > Una página estática** y elige tu página de inicio.
-5. **Crea el menú:** **Apariencia > Menús**, con tus páginas, y asígnalo a «Menú principal».
-6. **Instala los plugins** que necesita (ver tabla de abajo).
-7. **Crea las páginas y entradas** (ver más abajo).
-
-Qué debe tener el servidor: (versión de WordPress y de PHP con que probaste tu tema).
-
+- [x] **Tema descargado:** `Twenty Twenty-Five` · (https://wordpress.org/themes/twentytwenty-five/)
 ---
 
 ## Instrucciones si uso un tema descargado
-
-*(Borra esta sección si usas un tema propio.)*
 
 ### Requisitos del tema
 
 | Dato | Mi tema |
 |---|---|
-| Nombre y enlace a la ficha | |
-| Gratis o de pago | |
-| Tipo (clásico o de bloques) | |
-| Versión de WordPress que requiere | |
-| Versión de PHP que requiere | |
-| Plugins que necesita (si alguno) | |
-| Licencia | |
+| Nombre y enlace a la ficha | [Twenty Twenty-Five](https://wordpress.org/themes/twenty-twenty-five/) |
+| Gratis o de pago | Gratis |
+| Tipo (clásico o de bloques) | Tema de bloques (Block Theme) |
+| Versión de WordPress que requiere | 6.7 o superior |
+| Versión de PHP que requiere | 7.2.2 o superior |
+| Plugins que necesita (si alguno) | Contact Form 7, Flamingo, All-in-One WP Migration |
+| Licencia | Licencia Pública General GNU (GPLv2 o posterior) |
+
 
 ### Cómo llevar mi sitio de Local a producción
 
 Explica cómo exportas los datos de tu sitio en Local WP y los importas en producción (InfinityFree) con un plugin. Completa:
 
-- **Plugin de migración que uso:** (nombre y enlace a su ficha). Gratis o de pago: (...). Límites que tiene: (por ejemplo, tamaño máximo de importación).
-- **Qué se exporta:** (entradas, páginas, imágenes, menús, configuración).
+- **Plugin de migración que uso:** [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) · Gratis. Límites que tiene: 512 MB de tamaño máximo de importación en la versión gratuita.
+- **Qué se exporta:** Entradas, páginas, imágenes, menús, y tema.
 
 Pasos:
-
-1. **En Local:** (cómo exportas, con el plugin).
-2. **En producción:** (instalas un WordPress limpio, instalas el mismo plugin y el mismo tema).
-3. **Importa:** (cómo cargas el archivo que exportaste).
-4. **Revisa:** enlaces permanentes, menú, página de inicio, imágenes y formulario de contacto.
-5. **Problemas que tuve y cómo los resolví:** (...).
+1. **En Local:** Abres tu sitio en Local WP, vas al panel de administración de WordPress, instalas el plugin *All-in-One WP Migration*, haces clic en **Exportar > Archivo** y descargas el archivo `.wpress` a tu computador.
+2. **En producción:** Entras a tu panel de InfinityFree, instalas un WordPress limpio, y en su panel instalas el mismo tema (*Twenty Twenty-Five*) y el plugin *All-in-One WP Migration*.
+3. **Importa:** Vas a *All-in-One WP Migration > Importar*, seleccionas "Archivo" y subes el archivo `.wpress` que exportaste desde Local.
+4. **Revisa:** Verifica los enlaces permanentes (en Ajustes > Enlaces permanentes), el menú de navegación, la página de inicio, las imágenes y el formulario de contacto.
+5. **Problemas que tuve y cómo los resolví:** El límite de subida del servidor gratuito de InfinityFree. Se solucionó quitando los plugins y comentarios.
 
 ---
 
@@ -76,36 +53,52 @@ Pasos:
 El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explícalo para que otra persona pueda seguir tus pasos.
 
 **Qué respaldar:**
+- Los archivos de WordPress (tema Twenty Twenty-Five, plugins como Contact Form 7 y Flamingo, e imágenes subidas a la biblioteca de medios).
+- La base de datos (páginas, entradas, menús, formularios y configuración del sitio).
 
-- Los archivos de WordPress (tema, plugins, imágenes subidas).
-- La base de datos (páginas, entradas, menús, configuración).
-
-**Cómo respaldo mi sitio:** (plugin o método que usas, por ejemplo BackWPup o tu plugin de migración; dónde queda el archivo; cada cuánto lo haces).
+**Cómo respaldo mi sitio:**
+- Utilizo el plugin **All-in-One WP Migration** desde el panel de WordPress para generar un archivo comprimido `.wpress` con toda la información. Este archivo queda guardado en mi computador local como respaldo principal. Lo realizo cada vez que hago cambios importantes en el diseño o contenidos del sitio.
 
 **Cómo lo reinstalo en un servidor nuevo:**
+1. **Requisitos del servidor:** PHP versión 7.2.2 o superior, MySQL o MariaDB compatible con WordPress 6.7+, y al menos 1 GB de espacio libre en disco.
+2. **Instalar WordPress limpio:** Se instala una versión limpia de WordPress en el nuevo servidor mediante el instalador automático del hosting (Softaculous o similar).
+3. **Restaurar el respaldo:** Se instala el plugin *All-in-One WP Migration* en la nueva instalación de WordPress, se importa el archivo `.wpress` guardado previamente y se guardan dos veces los enlaces permanentes para actualizar las rutas.
+4.  **Ajustar:** Ve a **Ajustes > Enlaces permanentes** en tu panel de WordPress y haz clic dos veces en **Guardar cambios** para refrescar las URLs.
+Revisa el menú de navegación principal, que la página de inicio (Home) cargue correctamente y que las imágenes se muestren sin enlaces rotos.
+5. **Probar:** 
+**Sitio web:** Navega por las diferentes páginas de tu tienda de cosmética coreana para confirmar que todo responde con fluidez.
+**Imágenes:** Comprueba que los banners, mockups y fotos de productos se visualizan correctamente desde la biblioteca de medios.
+**Formulario de contacto:** Realiza una prueba enviando un mensaje a través del formulario público (`/contacto/`) y verifica que los datos se guarden correctamente en el panel de **Flamingo**. 
 
-1. **Requisitos del servidor:** (versión de PHP, de MySQL y de WordPress; espacio necesario).
-2. **Instalar WordPress limpio:** (cómo).
-3. **Restaurar el respaldo:** (cómo lo cargas con tu plugin).
-4. **Ajustar:** (enlaces permanentes, URL del sitio, menú y página de inicio).
-5. **Probar:** (qué revisas para saber que quedó bien: sitio, imágenes, formulario de contacto con un mensaje de prueba).
+**Problemas que tuve y cómo los resolví:** 
+   - **Problema:** El servidor gratuito de InfinityFree bloquea por defecto los puertos de salida de correo (`wp_mail`), lo que impedía que Contact Form 7 enviara notificaciones por email y arrojaba un aviso de error al usuario en la página pública.
+   - **Solución:** En lugar de depender del envío de correos salientes del servidor, integré el plugin **Flamingo** (creado por el mismo autor de Contact Form 7). Esto permite capturar, respaldar y almacenar localmente todos los mensajes de los clientes directamente en la base de datos de WordPress, garantizando que ningún contacto se pierda y cumpliendo con el objetivo funcional de la sección de contacto.
 
-**Problemas que tuve y cómo los resolví:** (...)
-
+     
 ## Plugins instalados
 
 | Plugin | Para qué lo uso | Gratis o de pago | Versión |
 |---|---|---|---|
-| (SEO) | | | |
-| (Contacto) | | | |
-| | | | |
-| | | | |
-| | | | |
+| [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) | Gestión del formulario de contacto principal de la tienda | Gratis | 5.9+ |
+| [Flamingo](https://wordpress.org/plugins/flamingo/) | Almacenamiento local de los mensajes de contacto en la base de datos (respaldo ante bloqueo de correo) | Gratis | 2.5+ |
+| [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | Exportación e importación del sitio completo entre Local WP y producción | Gratis | 7.8+ |
 
 ## Páginas y entradas
 
-- **Páginas:** (las 5 de la fase 1)
-- **Entradas del blog:** (títulos de tus 3 entradas)
+- **Páginas:** 
+  1. **Inicio (Home):** Presentación de la marca, banner principal de la colección y llamada a la acción.
+  2. **Sobre nosotros:** Historia de Nabi Skin, la filosofía K-Beauty y la proto-persona Sofía.
+  3. **Blog:** Artículos educativos sobre rutinas de cuidado facial y consejos de belleza.
+  4. **Contacto:** Formulario interactivo con almacenamiento local y datos de atención.
+
+- **Entradas del blog:** 
+  1. *Centella Asiática: El ingrediente estrella para calmar la piel*
+  2. *5 señales de que tu barrera cutánea necesita atención*
+  3. *Guía básica de doble limpieza coreana para principiantes*
+
+## Uso de IA
+
+- **Google Gemini:** Utilizado como apoyo académico y de diseño para estructurar los textos comerciales, redactar copy persuasivo para las publicaciones del blog y resolver dudas técnicas de desarrollo con WordPress y CSS. Todo el contenido generado fue revisado y adaptado personalmente.
 
 ## Cómo me organicé
 
@@ -115,7 +108,3 @@ Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) (si hace
 
 - **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
 - **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
-
-## Uso de IA
-
-- **(Herramienta):** para qué la usé y qué ajusté yo.
